@@ -20,15 +20,9 @@ This is a password manager web application developed using HTML5, Bootstrap, and
 
 ## Usage
 
-1. Clone the repository:
+1. Import the database schema (`users.sql`) into your MySQL database.
 
-    ```bash
-    git clone https://github.com/rounak-codes/PWManager.git
-    ```
-
-2. Import the database schema (`users.sql`) into your MySQL database.
-
-3. Configure database connection parameters in `db_connect.php`:
+2. Configure database connection parameters in `db_connect.php`:
 
     ```php
     define('DB_HOST', 'localhost');
@@ -37,9 +31,9 @@ This is a password manager web application developed using HTML5, Bootstrap, and
     define('DB_NAME', 'your_database_name');
     ```
 
-4. Run the application on your local server (e.g., XAMPP, WAMP) or deploy it to a web server.
+3. Run the application on your local server (e.g., XAMPP, WAMP) or deploy it to a web server.
 
-5. Access the application in your web browser.
+4. Access the application in your web browser.
 
 ## Contributing
 
